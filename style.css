@@ -1,12 +1,15 @@
 #gridContainer{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    min-width: 960px;
+    min-height: 960px;
+    max-width: 960px;
+    max-height: 960px;
+    border: 1px solid gray;
 }
 .gridCell{
+    flex: 1 1 0;
     box-sizing: border-box;
     margin: 0px;
     border: 1px solid gray;
-    height: 50px;
-    width: 50px;
 }
